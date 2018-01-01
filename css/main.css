@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	font-family: 'Raleway', sans-serif !important;
+}
+.vistaPlash {
+  height: 100vh;
+  width: 100%;
+  background-image: url('../assets/img/lya.png');
+  background-size: cover;
+}
+.foodmap {
+  font-size: 3em;
+}
+.flex {
+  display: flex;
+}
+.centrar {
+  justify-content: space-around;
+}
+.white {
+  background: white;
+}
+.box-input {
+  width: 80%;
+}
+.vistaPrincipal {
+  height: 100vh;
+  width: 100%;
+  background-image: url('../assets/img/lyftlyfe.png');
+  background-size: cover;
+}
+.button {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.button a {
+  background-color: transparent;
+  border: 1px solid white;
+  margin-bottom: 2em;
+  padding: 1em;
+  color: white;
+}
+
+.banderas {
+  min-width: 0px;
+}
+.ultimaVista {
+  height: 100vh;
+  width: 100%;
+  background-image: url('../assets/img/lyaCheck.png');
+  background-size: cover;
+}
